@@ -114,7 +114,7 @@ AIAgentAllowlist.Client.new(key, base_url: "https://www.aiagentallowlist.com/api
 
 ## Related guardrails
 
-Agents also call AI services. Keep a register of [outside AI services your agent must not call](https://www.aitoolsblocklist.com). Find [unmanaged AI assistants in company traffic](https://www.shadowaitools.com) with a log audit. When policy depends on subject matter, look up [subject categories for agent destinations](https://www.urlcategorizationdatabase.com).
+Agents also call AI services. Use [allow/deny lists for tool-use guardrails](https://www.aitoolsblocklist.com/ai-blocklist-api.php) to cover them. Find [shadow AI usage before prompts leave employee devices](https://www.shadowaitools.com/detection-methodology.php) with a log audit. When policy depends on subject matter, look up the [IAB category](https://www.urlcategorizationdatabase.com/taxonomy.php) of each destination.
 
 Other implementations: [the Go module](https://pkg.go.dev/github.com/explainableaixai/aiagentallowlist-go), [the Dart package](https://pub.dev/packages/aiagentallowlist) and [the PyPI release](https://pypi.org/project/aiagentallowlist/).
 
